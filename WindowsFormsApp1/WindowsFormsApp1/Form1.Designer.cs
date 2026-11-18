@@ -142,6 +142,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Расчет для интервала";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -175,6 +176,7 @@
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "Цвет красный";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -185,6 +187,7 @@
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Стиль курсив";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // listBox2
             // 
@@ -199,6 +202,7 @@
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(120, 95);
             this.listBox2.TabIndex = 11;
+            this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
             // label1
             // 
