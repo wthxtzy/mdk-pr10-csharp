@@ -16,5 +16,19 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if( radioButton1.Checked)
+            {
+                radioButton2.Checked= false;
+                labelStartInterval.Visible = false;
+                textBox2.Visible = false;
+                labelEndInterval.Visible = false;
+                textBox3.Visible = false;
+                labelStep.Visible = false;
+                textBox4.Visible = false;
+            }
+        }
     }
 }
